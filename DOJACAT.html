@@ -1,0 +1,151 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DOJACAT.COM</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        /* NAV */
+        nav {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+
+            background-color: rgba(255, 0, 98, 0.664);
+            padding: 13px;
+
+            display: flex;
+            justify-content: center;
+            gap: 55px;
+            box-sizing: border-box;
+        }
+
+        nav a {
+            color: rgb(131, 5, 47);
+            text-decoration: none;
+            transition: 0.3s;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', serif;
+        }
+
+        nav a:hover {
+            color: rgb(0, 0, 0);
+        }
+
+        /* CONTAINER */
+        .topo {
+            position: relative;
+        }
+
+        .topo img {
+            width: 100%;
+            display: block;
+        }
+
+        /* 🔥 CONTEÚDO AJUSTADO */
+        .conteudo {
+            position: absolute;
+            top: 25%; /* 🔥 sobe um pouco */
+            left: 23%;
+            transform: translate(-50%, -50%);
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px; /* 🔥 mais espaço entre tudo */
+        }
+
+        /* TÍTULO */
+        .conteudo h1 {
+            font-size: 55px;
+            color: rgb(0, 0, 0);
+            font-family: Georgia, serif;
+            text-align: left;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+            margin: 0;
+        }
+
+        /* TEXTO */
+        .conteudo p {
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', serif;
+            margin: 0;
+        }
+
+        /* BOTÕES */
+        .faixa {
+            display: flex;
+            gap: 10px; /* 🔥 espaço entre botões */
+        }
+
+        .faixa button {
+            width: 150px;
+            height: 70px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            background-color: rgb(255, 0, 85);
+            border-radius: 20px;
+            border: 5px solid rgba(0, 0, 0, 0.623);
+
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', serif;
+
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .faixa button:hover {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 0, 106);
+            transform: scale(1.1);
+        }
+
+        .faixa button:active {
+            transform: scale(0.9);
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="topo">
+        <img src="dojacat.png">
+
+        <div class="conteudo">
+            <h1>DOJACAT</h1>
+            <p>And we cuddle, sure I do love it, but I need your lips on mine</p>
+
+            <div class="faixa">
+              
+                <button >PRODUTOS</button>
+                <button >EXPLORAR</button>
+                <button >MÚSICAS</button>
+                
+              
+            </div>
+        </div>
+
+        <nav>
+            <a href="Sobre.html">Sobre</a>
+            <a href="Contato.html">Contato</a>
+            <a href="Lojas.html">Lojas</a>
+        </nav>
+    </div>
+
+</body>
+</html>
